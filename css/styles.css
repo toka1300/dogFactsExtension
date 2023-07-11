@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding: 16px;
+  flex-direction: column;
+  width: 400px;
+  height: 240px;
+  background-color: #bbd0ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+svg {
+  display: inline;
+  height: 25%;
+  width: 25%;
+  cursor: pointer;
+}
+
+.fact {
+  position: absolute;
+  font-size: 0.85rem;
+  top: 70px;
+  left: 171px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 10px 15px;
+  max-width: 200px;
+}
+
+span:first-of-type {
+  margin-bottom: 8px;
+}
+
+.left-point {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 4vh solid transparent;
+  border-right: 4vh solid transparent;
+  border-top: 20vh solid #f0f0f0;
+  top: -15px;
+  left: -28px;
+  transform: rotate(90deg);
+}
