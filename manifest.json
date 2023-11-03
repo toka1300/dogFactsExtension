@@ -1,10 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "A visit from Expo",
-  "description": "When lonely Expo will come and cheer you up",
-  "version": "1.0",
+  "name": "Dog Facts from Expo",
+  "description": "A simple extension providing fun dog facts",
+  "version": "1.2",
+  "icons": {
+    "128": "images/logo-128.png",
+    "48": "images/logo-48.png"
+  },
   "action": {
-    "default_popup": "hello.html",
+    "default_popup": "index.html",
     "default_icon": "images/paw.png"
   }
 }

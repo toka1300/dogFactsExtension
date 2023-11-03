@@ -1,6 +1,6 @@
 let dogFact;
 const factElement = document.querySelector('.fact span');
-const pawButton = document.querySelector('svg');
+const pawButton = document.querySelector('button');
 
 const fetchDogFact = async () => {
   try {
